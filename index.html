@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=2,maximum-scale=1,user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/common.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header class="header">
+        <ul>
+            <li class="active">
+                未使用
+            </li>
+            <li>
+                已使用
+            </li>
+            <li>
+                已过期
+            </li>
+        </ul>
+    </header>
+    <section class="section">
+            <ul>
+                <li>
+                    <div class="ticket">
+                        <div class="money-ticket">
+                            <b>￥</b><i>5</i><span>折扣卷</span>
+                        </div>
+                        <div class="user">
+                            <p class="text-nobr des"><i class="shop"></i>使用门槛:1.满100元即可使用;2.本卷适用于所有的项目</p>
+                            <p class="text-nobr"><i class="clock"></i>使用时间:即日起至2017年10月1号</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ticket">
+                        <div class="money-ticket">
+                            <b>￥</b><i>5</i><span>折扣卷</span>
+                        </div>
+                        <div class="user">
+                            <p class="text-nobr des"><i class="shop"></i>使用门槛:1.满100元即可使用;2.本卷适用于所有的项目</p>
+                            <p class="text-nobr"><i class="clock"></i>使用时间:即日起至2017年10月1号</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="ticket">
+                        <div class="money-ticket">
+                            <b>￥</b><i>5</i><span>折扣卷</span>
+                        </div>
+                        <div class="user">
+                            <p class="text-nobr des"><i class="shop"></i>使用门槛:1.满100元即可使用;2.本卷适用于所有的项目</p>
+                            <p class="text-nobr"><i class="clock"></i>使用时间:即日起至2017年10月1号</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    </section>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(".header ul li").click(function(){
+            $(this).addClass("active").siblings().removeClass();
+        })
+    </script>
+</body>
+</html>

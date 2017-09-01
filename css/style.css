@@ -1,0 +1,78 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: 0.12rem; }
+
+.header {
+  height: 0.4rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  border-bottom: 1px solid #ccc; }
+  .header ul {
+    display: -webkit-flex; }
+    .header ul li {
+      -webkit-flex: 1;
+      text-align: center;
+      line-height: 0.4rem; }
+    .header ul .active {
+      border-bottom: 2px solid #0074d9;
+      color: #0074d9; }
+
+.section {
+  -webkit-flex: 1;
+  background: #eee; }
+  .section ul {
+    margin-top: 0.1rem;
+    background: #fff; }
+    .section ul li {
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      padding-top: 0.2rem; }
+      .section ul li .ticket {
+        width: 100%;
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px #ccc; }
+        .section ul li .ticket .money-ticket {
+          height: 0.7rem;
+          background: red;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          color: #fff; }
+          .section ul li .ticket .money-ticket b {
+            font-size: 0.3rem;
+            margin-left: 0.1rem;
+            margin-top: 0.05rem; }
+          .section ul li .ticket .money-ticket i {
+            font-style: normal;
+            font-size: 0.47rem; }
+          .section ul li .ticket .money-ticket span {
+            float: right;
+            margin-right: 0.1rem;
+            font-size: 0.16rem;
+            margin-top: 0.4rem; }
+        .section ul li .ticket .user {
+          padding-left: 0.1rem;
+          box-sizing: border-box;
+          font-size: 0.16rem; }
+          .section ul li .ticket .user .des {
+            color: #20b377; }
+          .section ul li .ticket .user .shop {
+            display: inline-block;
+            width: 0.3rem;
+            height: 0.25rem;
+            background-image: url("../images/b.png");
+            background-position: 0px 0px; }
+          .section ul li .ticket .user .clock {
+            display: inline-block;
+            width: 0.23rem;
+            height: 0.25rem;
+            background-image: url("../images/b.png");
+            background-position: 0px 30px; }
+
+/*# sourceMappingURL=style.css.map */
